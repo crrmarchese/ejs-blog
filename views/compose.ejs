@@ -1,0 +1,15 @@
+<%- include('partials/header'); -%>
+<h1 class="my-2">Compose</h1>
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-auto">
+      <form action="/compose" method="post">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="enter" aria-label="blog input" aria-describedby="submit" autocomplete="off" name="postTitle">
+          <button class="btn btn-outline-secondary" type="submit" id="submit">Publish</button>
+        </div> 
+      </form> 
+    </div>
+  </div>  
+</div>
+<%- include('partials/footer'); -%>

@@ -17,9 +17,29 @@ app.use(express.static("public"));
 
 
 
-// Route for home 
+// Route for Home 
 app.get("/", function(req, res) {
   res.render("home", {startingContent: homeStartingContent});
+});
+
+// Route for About 
+app.get("/about", function(req, res) {
+  res.render("about", {aboutText: aboutContent});
+});
+
+// Route for Contact
+app.get("/contact", function(req, res) {
+  res.render("contact", {contactText: contactContent});
+});
+
+// Route for Compose
+app.get("/compose", function(req, res) {
+  res.render("compose");
+});
+
+// Get user input from input form (web page) and pass to server
+app.post("/compose", function(req, res) {
+  console.log(req.body.postTitle);
 });
 
 

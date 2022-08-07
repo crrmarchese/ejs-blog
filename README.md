@@ -7,5 +7,5 @@
 * [Bootstrap](https://getbootstrap.com/)
 
 ## Credit
-The Complete Web Development Bootcamp by Angela Yu (Section 23)
+The Complete Web Development Bootcamp by Angela Yu (Section 23 Blog Website using EJS)
 

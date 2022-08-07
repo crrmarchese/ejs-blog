@@ -11,6 +11,11 @@
     font-size: 16px;
     letter-spacing: 5px;
 }
+.navbar-brand a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
